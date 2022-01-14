@@ -1,0 +1,37 @@
+.product-add-form{
+    display: flex;
+    flex-direction: column;
+    max-width: 70vh;
+    background: black;
+    box-shadow: 0 0 100px rgb(135, 87, 37);
+    padding: 5rem;
+
+}
+.product-add-form input{
+    height: 7vh;
+    max-width: 50vh;
+    margin: 15px;
+    border-radius: 0.5rem;
+    border-style:none
+}
+.product-add-form button{
+    height: 50px;
+    margin-top: 10px;
+    width: 96%;
+    margin-left: 14px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #ae974d 0%, #462d0c 51%, #745e15 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: 0.5s;
+}
+.product-add-h2 {
+    margin: 5rem 0
+}
